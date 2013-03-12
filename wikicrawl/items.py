@@ -6,6 +6,5 @@
 from scrapy.item import Item, Field
 
 class WikicrawlItem(Item):
-  title = Field()
   link = Field()
-  children = Field()
+  min_depth = Field()
